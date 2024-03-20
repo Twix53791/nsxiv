@@ -189,6 +189,8 @@ static const button_t buttons_img[] = {
 	{ 0,            3,                g_switch_mode,        None },
 	{ 0,            4,                i_scroll,             DIR_UP },
 	{ 0,            5,                i_scroll,             DIR_DOWN },
+	{ 0,            6,                i_scroll,             DIR_LEFT },
+	{ 0,            7,                i_scroll,             DIR_RIGHT },
 };
 
 /* mouse button mappings for thumbnail mode: */
