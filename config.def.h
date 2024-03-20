@@ -186,8 +186,8 @@ static const button_t buttons_img[] = {
 	{ ControlMask,  1,                i_drag,               DRAG_RELATIVE },
 	{ 0,            2,                i_drag,               DRAG_ABSOLUTE },
 	{ 0,            3,                g_switch_mode,        None },
-	{ 0,            4,                g_zoom,               +1 },
-	{ 0,            5,                g_zoom,               -1 },
+	{ 0,            4,                i_scroll,             DIR_UP },
+	{ 0,            5,                i_scroll,             DIR_DOWN },
 };
 
 /* mouse button mappings for thumbnail mode: */
